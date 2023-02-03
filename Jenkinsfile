@@ -4,7 +4,7 @@ pipeline {
       image 'mcr.microsoft.com/playwright:v1.30.0-focal'
     } 
   }
-  stages {
+stages {
     stage('install playwright') {
       steps {
         sh '''
