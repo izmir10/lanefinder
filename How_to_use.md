@@ -1,7 +1,6 @@
 # PLAYWRIGHT CHALLENGE
 
 ✔ *How to install the project*
- This assignment is written with Javascript and Playwright
 
 ## Pre-requisites
 - Download and install Node.js
