@@ -3,15 +3,15 @@
 ✔ *How to install the project*
  This assignment is written with Javascript and Playwright
 
-Run application
-Clone the repository
+    > Run application
+    > Clone the repository
     > https://github.com/izmir10/lanefinder.git 
 
-Install dependencies
+    > Install dependencies
     > npm install
     > npx playwright install
 
-Run tests
+    > Run tests
     > npm run test 
 
 ✔ *Task:* 
