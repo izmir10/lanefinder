@@ -2,18 +2,18 @@
 
 *- I tested only a limited portion of the lanefinder.com website. Thus these comments might be superficial.*
 
-*- Locating web elements are important in test automation and can create problems during the development and adding new functioalities phases. Thus, unique id names could be used more often to increase the maintainability of the framework.* 
+*- Locating web elements are important in test automation and can create problems during the development and adding new functionalities phases. Thus, unique id names could be used more often to increase the maintainability of the framework.* 
 
 
 ### **2- What strategy would you like to use in order to mitigate false positives and flaky tests?** 
 
-*- There are a number of reasons that cause fleaky tests or false positives. They can be different in the backend and UI part; but these reasons are mainly caused by 3rd party APIs, instable test environment, poorly written tests, or changing locators.*
+*- There are a number of reasons that cause flaky tests or false positives. They can be different in the backend and UI part; but these reasons are mainly caused by 3rd party APIs, instable test environment, poorly written tests, or changing locators.*
 
 *- I try to use meaningful and varied data, including edge cases and negative testing as much as possible to reduce the chances of false positives.*
 
-*- Structuring the framework with stable elements and scheduling tests & maintenance in a regular basis is also important. I regularly maintain and update the tests to reflect any changes in the code or environment. In my framework I prefer to implement POM and try to avoid hardcoding. These make the framework more flexibla and maintainabile.*
+*- Structuring the framework with stable elements and scheduling tests & maintenance in a regular basis is also important. I regularly maintain and update the tests to reflect any changes in the code or environment. In my framework I prefer to implement POM and try to avoid hardcoding. These make the framework more flexible and maintainable.*
 
-*- Refactoring the test suite to remove redundant tests and ensuring that tests are focused on specific functionality helps to mitigate fleaky tests.* 
+*- Refactoring the test suite to remove redundant tests and ensuring that tests are focused on specific functionality helps to mitigate flaky tests.* 
 
 *- There are also some self-healing test automation tools in the market and these new tech solutions can be implemented for this purpose too.*
 
@@ -23,7 +23,7 @@
 
 *- It was time consuming to locate some of the elements, because there were a number of elements sharing same attributes and values with quite long class names at the DOM. This can be overcome by increasing unique id's in the HTML source. This will also make the test framework easy to maintain.*
 
-*- As a final remark; this was the first time I used used Playwright. So I needed to learn and implement a new tool in a very short time for this task. Thus I could not avoid hardcoding or implement POM.*
+*- As a final remark; this was the first time I used Playwright. So I needed to learn and implement a new tool in a very short time for this task. Thus I could not avoid hardcoding or implement POM.*
 
 *But it was fun though!*
 
