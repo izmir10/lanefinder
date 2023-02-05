@@ -5,14 +5,15 @@
 
 - Run application
 - Clone the repository
-  > https://github.com/izmir10/lanefinder.git
+    > https://github.com/izmir10/lanefinder.git 
 
 - Install dependencies
-  > npm install
-  > npx playwright install
+    > npm install
+
+    > npx playwright install
 
 - Run tests
-  > npm run test 
+    > npm run test 
 
 ✔ *Task:* 
 - To create on UI automated test cases using Playwright 
