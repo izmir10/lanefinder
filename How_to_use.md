@@ -3,16 +3,19 @@
 ✔ *How to install the project*
  This assignment is written with Javascript and Playwright
 
-    > Run application
-    > Clone the repository
-    > https://github.com/izmir10/lanefinder.git 
+## Pre-requisites
+- Download and install Node.js
+- Download and install any Text Editor (ie Visual Code)
+- Install Playwright VS Code Extension from the Marketplace
 
-    > Install dependencies
-    > npm install
-    > npx playwright install
+## Setup Scripts
+- Clone the repository into a folder (https://github.com/izmir10/lanefinder.git )
+- Go to Project root directory and install Dependency: npm install
+- All the dependencies from package.json would be installed in node_modules folder.
 
-    > Run tests
-    > npm run test 
+## How to Run Test
+- Go to Project root directory and run command: npm test
+
 
 ✔ *Task:* 
 To create on UI automated test cases using Playwright 
