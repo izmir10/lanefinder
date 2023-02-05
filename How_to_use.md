@@ -1,9 +1,23 @@
 # PLAYWRIGHT CHALLENGE
 
-## *Task:* 
+✔ *How to install the project*
+ This assignment is written with Javascript and Playwright
+
+- Run application
+- Clone the repository
+  > https://github.com/izmir10/lanefinder.git
+
+- Install dependencies
+  > npm install
+  > npx playwright install
+
+- Run tests
+  > npm run test 
+
+✔ *Task:* 
 - To create on UI automated test cases using Playwright 
 
-## *Steps:*
+✔ *Steps:*
 
 - Opens the page lanefinder.com 
 - Set up a job filter 
@@ -16,7 +30,7 @@
 
 All in a zip file able to run by "npm run" command after unzipping
 
-## *Questions:*
+✔ *Questions:*
 - What are the downsides with the test implementation as it is implemented and what would you suggest for changes on lanefinder.com to mitigate these?
 - What strategy would you like to use in order to mitigate false positives and flaky tests? 
 - Please suggest a couple of changes that we should implement on lanefinder.com to enable your findings in question1 and 2.
