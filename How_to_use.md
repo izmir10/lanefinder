@@ -15,4 +15,3 @@
 ## How to Run Test
 - Go to Project root directory and run command: npm test
 - Alternatively, the tests can bu run manually through Playwright test extension (in case of npm test command returns "no tests found" error)
-
