@@ -9,7 +9,6 @@
 
 - Install dependencies
     > npm install
-
     > npx playwright install
 
 - Run tests
