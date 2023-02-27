@@ -1,7 +1,7 @@
 {
   "name": "lanefinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "*- I tested only a limited portion of the lanefinder.com website. Thus these comments might be superficial.*",
   "main": "index.js",
   "scripts": {
     "tests": "node index.js"
@@ -11,5 +11,11 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.30.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright-core": "^1.30.0"
   }
 }

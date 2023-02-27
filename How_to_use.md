@@ -1,6 +1,6 @@
 # LANEFINDER CHALLENGE
 
-✔ *How to install the project*
+## ✔ *How to install the project*
 
 ## Pre-requisites
 - Download and install Node.js
@@ -13,5 +13,12 @@
 - All the dependencies from package.json would be installed in node_modules folder.
 
 ## How to Run Test
-- Go to Project root directory and run command: npm test
-- Alternatively, the tests can bu run manually through Playwright test extension (in case of npm test command returns "no tests found" error)
+- Go to Project root directory and run all the tests: 
+    - npx playwright test
+- Running single test file:
+    - npx playwright test < Test File Name >
+- Running tests in headed mode:
+    - npx playwright test --headed
+- By default, the HTML report is opened automatically if some of the tests failed. If you need to open the report manually you can use the following command: 
+    - npx playwright show-report
+- Alternatively, the tests can be run manually through Playwright test extension
