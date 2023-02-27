@@ -5,7 +5,7 @@
 ## Pre-requisites
 - Download and install Node.js
 - Download and install any Text Editor (ie Visual Code)
-- Install Playwright VS Code Extension from the Marketplace
+- Install Playwright VS Code Extension from the Marketplace (Optional)
 
 ## Setup Scripts
 - Clone the repository into a folder (https://github.com/izmir10/lanefinder.git )

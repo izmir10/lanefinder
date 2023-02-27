@@ -34,12 +34,4 @@ test('setting up filters and selecting job', async ({ page }) => {
   await expect(page).toHaveURL(/addLanefinderDriverToApplication/);
 
 
-
-
-
-  // Click the get started link.
-//  await page.getByRole('link', { name: 'Get started' }).click();
-
-  // Expects the URL to contain intro.
-//  await expect(page).toHaveURL(/.*intro/);
 });
